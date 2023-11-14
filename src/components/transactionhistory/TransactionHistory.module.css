@@ -1,0 +1,30 @@
+.transaction-history {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+  align-items: center;
+  width: 100%;
+}
+
+.thead {
+  background-color: aqua;
+  border-color: blue;
+}
+.table_row {
+  border-inline-color: red;
+  border-color: brown;
+}
+
+.table_row td {
+  border: 1px solid lightgrey;
+  padding: 8px;
+  text-align: center;
+  vertical-align: center;
+}
+.table_row:nth-child(odd) {
+  background-color: white;
+}
+
+.table_row:nth-child(even) {
+  background-color: lightgrey;
+}

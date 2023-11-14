@@ -1,0 +1,13 @@
+/* .item {
+  display: flex;
+  flex-direction: row;
+  list-style-type: disc;
+  display: list-item;
+} */
+
+.isOnline {
+  color: green;
+}
+.isOffline {
+  color: red; /* Use a different color for offline friends */
+}
